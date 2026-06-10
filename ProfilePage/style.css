@@ -130,6 +130,7 @@ h1,
     transform: translateY(5px);
     box-shadow: 5px 5px 25px #000;
     padding-bottom: 5px;
+    border: 0px solid #000;
     transition: transform .2s cubic-bezier(.175, .885, .32, 1.275), border-radius 0.25s, background-color 0.2s, transform 0.3s, filter 0.5s, box-shadow 0.25s, border 0.1s, backdrop-filter 0.1s;
 }
 
@@ -190,8 +191,8 @@ h1,
     }
 
     .game_cell:hover img {
-        border-top-left-radius: 34px;
-        border-top-right-radius: 34px;
+        border-top-left-radius: 33px;
+        border-top-right-radius: 33px;
     }
 
     .game_cell:hover .game_title a {
