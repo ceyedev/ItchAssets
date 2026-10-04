@@ -12,8 +12,9 @@
   padding-top:20px !important;
 }
 
-
-
+p, h1, h2, h3, span, a, li {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
 
 .load_iframe_btn {
   padding: 12px 24px;
